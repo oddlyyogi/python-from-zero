@@ -1,0 +1,4 @@
+[ledger]
+currency = "EUR"
+budget = 2500.0
+categories = ["food", "housing", "health"]

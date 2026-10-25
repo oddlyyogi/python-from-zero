@@ -92,30 +92,31 @@ Some chapters declare their own third-party dependencies at the top of the scrip
 | # | Chapter | Code |
 |---:|---|---|
 | 36 | SQLite: Store Transactions in a Database | [`chapters/36-sqlite`](chapters/36-sqlite) |
-| 37 | SQL Queries and Migrations | _coming soon_ |
-| 38 | HTTP Calls With httpx: Exchange Rates | _coming soon_ |
-| 39 | A Web API With FastAPI | _coming soon_ |
-| 40 | Validation With Pydantic | _coming soon_ |
-| 41 | Configuration and Secrets | _coming soon_ |
-| 42 | Automation With subprocess | _coming soon_ |
-| 43 | Template Strings (t-strings): Safe Reports | _coming soon_ |
-| 44 | Charts: A Spending Chart | _coming soon_ |
+| 37 | SQL Queries and Migrations | [`chapters/37-sql-queries-and-migrations`](chapters/37-sql-queries-and-migrations) |
+| 38 | HTTP Calls With httpx: Exchange Rates | [`chapters/38-http-with-httpx`](chapters/38-http-with-httpx) |
+| 39 | A Web API With FastAPI | [`chapters/39-web-api-with-fastapi`](chapters/39-web-api-with-fastapi) |
+| 40 | Validation With Pydantic | [`chapters/40-validation-with-pydantic`](chapters/40-validation-with-pydantic) |
+| 41 | Configuration and Secrets | [`chapters/41-configuration-and-secrets`](chapters/41-configuration-and-secrets) |
+| 42 | Automation With subprocess | [`chapters/42-automation-with-subprocess`](chapters/42-automation-with-subprocess) |
+| 43 | Template Strings (t-strings): Safe Reports | [`chapters/43-template-strings`](chapters/43-template-strings) |
+| 44 | Charts: A Spending Chart | [`chapters/44-charts-with-matplotlib`](chapters/44-charts-with-matplotlib) |
 
 ### Part 6: Advanced
 
 | # | Chapter | Code |
 |---:|---|---|
-| 45 | Threads and Processes | _coming soon_ |
-| 46 | asyncio: Concurrent Rate Fetching | _coming soon_ |
-| 47 | Free-Threaded Python | _coming soon_ |
-| 48 | Profiling and Speed | _coming soon_ |
-| 49 | Static Checks With mypy and ruff | _coming soon_ |
-| 50 | Capstone: Assemble Pocket Ledger | _coming soon_ |
+| 45 | Threads and Processes | [`chapters/45-threads-and-processes`](chapters/45-threads-and-processes) |
+| 46 | asyncio: Concurrent Rate Fetching | [`chapters/46-asyncio`](chapters/46-asyncio) |
+| 47 | Free-Threaded Python | [`chapters/47-free-threaded-python`](chapters/47-free-threaded-python) |
+| 48 | Profiling and Speed | [`chapters/48-profiling-and-speed`](chapters/48-profiling-and-speed) |
+| 49 | Static Checks With mypy and ruff | [`chapters/49-ruff-and-mypy`](chapters/49-ruff-and-mypy) |
+| 50 | Capstone: Assemble Pocket Ledger | [`chapters/50-capstone-assemble-pocket-ledger`](chapters/50-capstone-assemble-pocket-ledger) |
 
 ## Repository layout
 
 ```text
 chapters/NN-title/    the files typed in the chapter, each with its own README
+pocket-ledger/        the assembled Pocket Ledger application (chapter 50)
 .gitignore, LICENSE, README.md
 ```
 
