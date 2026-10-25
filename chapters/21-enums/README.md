@@ -14,4 +14,13 @@ From this folder:
 uv run categories.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a `TRAVEL` category and update `budget`.
+2. Loop over the enum and print every name and value.
+3. Turn a text from a file into a `Category` safely.
+
 Tested with Python 3.15.1 and uv 0.13.5.

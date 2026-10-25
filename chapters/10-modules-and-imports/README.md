@@ -19,4 +19,13 @@ uv run money.py
 uv run report.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Move `add_tax` into its own module and import it.
+2. Add a function to `money.py` and use it from `report.py`.
+3. Use `lazy import` for another standard library module and check `sys.modules`.
+
 Tested with Python 3.15.1 and uv 0.13.5.

@@ -14,4 +14,13 @@ From this folder:
 uv run parse_amount.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Make `parse_amount` also accept amounts in brackets such as `(5.00)`.
+2. Add a custom error message for an empty list in `average`.
+3. Write a loop that keeps asking for a number until the input is valid.
+
 Tested with Python 3.15.1 and uv 0.13.5.

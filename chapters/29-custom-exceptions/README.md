@@ -14,4 +14,18 @@ From this folder:
 uv run errors.py
 ```
 
+
+## Notes
+
+The program ends with a deliberate traceback, to show the note added to the error.
+
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a `DuplicateTransaction` error to the family.
+2. Catch `LedgerError` once and print a friendly message.
+3. Use `add_note` to say which line of a file failed.
+
 Tested with Python 3.15.1 and uv 0.13.5.

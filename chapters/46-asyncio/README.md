@@ -24,4 +24,18 @@ uv run rates_async.py
 uv run slow_server.py
 ```
 
+
+## Notes
+
+Start the slow test server in a second terminal first: `python3 slow_server.py`, then `uv run rates_async.py`.
+
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Fetch all four currencies with a `TaskGroup`.
+2. Add a timeout to every call.
+3. Measure what happens with a hundred concurrent calls.
+
 Tested with Python 3.15.1 and uv 0.13.5.

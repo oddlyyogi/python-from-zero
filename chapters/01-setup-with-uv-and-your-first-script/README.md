@@ -19,4 +19,13 @@ uv run hello.py
 uv run ledger_hello.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Change the greeting in `hello.py` to your own name, then run it again.
+2. Add a second variable `rent` to `ledger_hello.py` and subtract it from the balance.
+3. Open `uv run python` and use it as a calculator for three of your own sums.
+
 Tested with Python 3.15.1 and uv 0.13.5.

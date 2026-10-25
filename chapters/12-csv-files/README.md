@@ -15,4 +15,13 @@ From this folder:
 uv run import_csv.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a row with a quoted comma to `bank_export.csv` and check that it imports.
+2. Write a CSV with the totals per category.
+3. Skip rows whose date is not in `YYYY-MM-DD` format.
+
 Tested with Python 3.15.1 and uv 0.13.5.

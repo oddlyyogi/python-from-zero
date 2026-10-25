@@ -14,4 +14,18 @@ From this folder:
 uv run typed_ledger.py
 ```
 
+
+## Notes
+
+`reveal_type(...)` is understood by the type checker. To run the file with plain Python as well, add `from typing import reveal_type` at the top.
+
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add type hints to a function of your own and check it with `mypy`.
+2. Define a type alias for a list of transactions.
+3. Write a generic `last[T]` function.
+
 Tested with Python 3.15.1 and uv 0.13.5.

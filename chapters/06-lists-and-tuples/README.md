@@ -19,4 +19,13 @@ uv run transactions.py
 uv run alias.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add two more transactions and sort them by amount instead of date.
+2. Try to change a tuple and read the error message carefully.
+3. Show the difference between `alias = original` and `original.copy()` with your own list.
+
 Tested with Python 3.15.1 and uv 0.13.5.

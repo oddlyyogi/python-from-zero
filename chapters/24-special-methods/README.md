@@ -14,4 +14,13 @@ From this folder:
 uv run ledger.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add `__bool__` so an empty ledger is falsy.
+2. Add `__eq__` and compare two ledgers.
+3. Make `ledger[1:3]` return a new `Ledger`.
+
 Tested with Python 3.15.1 and uv 0.13.5.

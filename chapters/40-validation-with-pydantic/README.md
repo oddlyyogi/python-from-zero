@@ -19,4 +19,18 @@ uv run models.py
 uv run api.py
 ```
 
+
+## Notes
+
+`uv run api.py` starts a small server on port 8000 that uses the model from `models.py`.
+
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a `max_length` to the description.
+2. Validate that the date is not in the future.
+3. Parse a JSON list of transactions with `model_validate_json`.
+
 Tested with Python 3.15.1 and uv 0.13.5.

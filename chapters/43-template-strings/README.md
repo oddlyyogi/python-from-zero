@@ -14,4 +14,13 @@ From this folder:
 uv run safe_report.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Write a `render_markdown` function for templates.
+2. Make `render_html` escape quotes too.
+3. Print the interpolations of a template of your own.
+
 Tested with Python 3.15.1 and uv 0.13.5.

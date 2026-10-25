@@ -14,4 +14,13 @@ From this folder:
 uv run audit.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Send warnings and errors to the console and everything to a file.
+2. Log the number of rows imported.
+3. Change the log format to include the function name.
+
 Tested with Python 3.15.1 and uv 0.13.5.

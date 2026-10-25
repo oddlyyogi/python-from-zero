@@ -14,4 +14,18 @@ From this folder:
 uv run transaction_dc.py
 ```
 
+
+## Notes
+
+The last lines raise a `ValueError` on purpose, to show the validation message.
+
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a `tags` field and a validation rule in `__post_init__`.
+2. Create a frozen copy of a transaction with a new amount using `replace`.
+3. Convert a transaction to a dictionary with `asdict`.
+
 Tested with Python 3.15.1 and uv 0.13.5.

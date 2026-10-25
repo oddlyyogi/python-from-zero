@@ -19,4 +19,13 @@ uv run --with pytest pytest -v
 uv run importer.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add three more cases to the `parametrize` list.
+2. Write a fixture that creates a file with sample data.
+3. Mark a test with `skip` and run the suite.
+
 Tested with Python 3.15.1 and uv 0.13.5.

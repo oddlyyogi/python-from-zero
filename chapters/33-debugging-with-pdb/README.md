@@ -19,4 +19,18 @@ uv run balance.py
 uv run crash.py
 ```
 
+
+## Notes
+
+`crash.py` crashes on purpose, so that you can try post-mortem debugging: `uv run python -m pdb crash.py`.
+
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Put a `breakpoint()` in your own program and step through it.
+2. Use `pdb` post-mortem on a script that crashes.
+3. Write an `assert` that would have caught the off-by-one bug.
+
 Tested with Python 3.15.1 and uv 0.13.5.

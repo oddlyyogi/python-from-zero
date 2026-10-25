@@ -19,4 +19,13 @@ uv run --with pytest pytest -v
 uv run money.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Write a test for `split_bill` with a negative total.
+2. Make a test fail on purpose and read the report.
+3. Use `pytest.approx` for a calculation of your own.
+
 Tested with Python 3.15.1 and uv 0.13.5.

@@ -15,4 +15,18 @@ From this folder:
 uv run pocket-ledger/src/pocket_ledger/cli.py
 ```
 
+
+## Notes
+
+The complete packaged project from the video is in [`pocket-ledger/`](pocket-ledger). From that folder: `uv run ledger 4.5 coffee`.
+
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Change the version in `pyproject.toml` and rebuild.
+2. Add a dependency with `uv add` and remove it again.
+3. Install your tool with `uv tool install` and run it from another folder.
+
 Tested with Python 3.15.1 and uv 0.13.5.

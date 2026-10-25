@@ -14,4 +14,13 @@ From this folder:
 uv run money_helpers.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Write `percent_change(old, new)` and test it by hand.
+2. Give `split_bill` a `tip` parameter with a default of 0.
+3. Add a docstring to every function and read them with `help()`.
+
 Tested with Python 3.15.1 and uv 0.13.5.

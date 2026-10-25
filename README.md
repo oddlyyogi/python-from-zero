@@ -1,34 +1,50 @@
 # Python From Zero
 
+[![CI](https://github.com/oddlyyogi/python-from-zero/actions/workflows/ci.yml/badge.svg)](https://github.com/oddlyyogi/python-from-zero/actions/workflows/ci.yml)
 [![Python 3.15](https://img.shields.io/badge/python-3.15-3776AB?logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![Managed with uv](https://img.shields.io/badge/managed%20with-uv-DE5FE9)](https://docs.astral.sh/uv/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Source code for the **Python From Zero** video course: a practical, live-coding introduction to modern Python (3.15), from your first script to a tested, packaged, web-enabled application.
+Source code and exercises for the **Python From Zero** video course: a practical, live-coding introduction to modern Python (3.15), in 50 chapters, from your first script to a tested, packaged application with a command line tool and a web API.
 
-Every example in the videos is typed and run on screen. This repository holds the exact files from each chapter, so you can run them, change them and break them yourself.
+Every example in the videos is typed and run on screen. This repository holds the exact files from each chapter, so you can run them, change them and break them yourself. Each chapter folder also has a short list of practice exercises.
 
-## What you will build
+## Contents
 
-Along the way the chapters build the pieces of **Pocket Ledger**, a small personal expense tracker: parsing messy bank lines, handling money correctly, reading and writing CSV and JSON, storing data in SQLite, a command line tool, a web API, tests, and packaging.
+- [Getting started](#getting-started)
+- [How to practice](#how-to-practice)
+- [Chapters](#chapters)
+- [The Pocket Ledger project](#the-pocket-ledger-project)
+- [Repository layout](#repository-layout)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Getting started
 
-1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/), the Python package and project manager used throughout the course.
-2. Clone this repository:
+1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/), the Python package and project manager used throughout the course. uv also downloads the right Python version for you.
+2. Clone the repository:
 
    ```bash
    git clone https://github.com/oddlyyogi/python-from-zero.git
    cd python-from-zero
    ```
 
-3. Run any chapter file. uv downloads the right Python version automatically:
+3. Run your first chapter file:
 
    ```bash
-   uv run --python 3.15 chapters/01-setup-with-uv-and-your-first-script/hello.py
+   cd chapters/01-setup-with-uv-and-your-first-script
+   uv run --python 3.15 hello.py
    ```
 
-Some chapters declare their own third-party dependencies at the top of the script ([PEP 723](https://peps.python.org/pep-0723/)); `uv run` installs them on demand, so there is nothing to set up by hand.
+Some scripts declare their own third-party dependencies at the top ([PEP 723](https://peps.python.org/pep-0723/)), and `uv run` installs them on demand, so there is nothing to set up by hand.
+
+## How to practice
+
+1. Watch a chapter, then open its folder here and run the files yourself.
+2. Do not just read them: change a value, break a line on purpose, read the error, and fix it.
+3. Finish the **Practice** exercises at the bottom of the chapter README. Work in a copy (for example `cp -r chapters/05-loops ~/practice/05`) so that you can always get back to the original.
+4. When you are stuck, compare with the files in the chapter folder, and open an issue if something does not run.
 
 ## Chapters
 
@@ -112,19 +128,35 @@ Some chapters declare their own third-party dependencies at the top of the scrip
 | 49 | Static Checks With mypy and ruff | [`chapters/49-ruff-and-mypy`](chapters/49-ruff-and-mypy) |
 | 50 | Capstone: Assemble Pocket Ledger | [`chapters/50-capstone-assemble-pocket-ledger`](chapters/50-capstone-assemble-pocket-ledger) |
 
+## The Pocket Ledger project
+
+Along the way the chapters build the pieces of **Pocket Ledger**, a small personal expense tracker. The finished application is in [`pocket-ledger/`](pocket-ledger): it imports a messy bank CSV, handles money exactly, categorises transactions, stores them in SQLite, prints a report, and offers a command line tool and a web API, with tests and static checks.
+
+```bash
+cd pocket-ledger
+uv run ledger import bank.csv
+uv run ledger report
+uv run pytest -q
+```
+
 ## Repository layout
 
 ```text
-chapters/NN-title/    the files typed in the chapter, each with its own README
-pocket-ledger/        the assembled Pocket Ledger application (chapter 50)
-.gitignore, LICENSE, README.md
+chapters/NN-title/    the files typed in each chapter, with a README and exercises
+pocket-ledger/        the finished Pocket Ledger application (chapter 50)
+.github/workflows/    continuous integration
 ```
 
-## Requirements
+## Troubleshooting
 
-- Python 3.15 (the course was recorded with 3.15.1)
-- [uv](https://docs.astral.sh/uv/) 0.13 or newer
-- macOS, Linux or Windows
+- **`uv: command not found`**: install uv and open a new terminal.
+- **A chapter needs a server** (chapters 38, 39, 40, 46): the chapter README says which command to start first, in a second terminal.
+- **Different output on your machine**: timings, memory addresses, dates and random values will differ. That is expected.
+- **Older Python**: the code uses Python 3.15 features in places (for example `lazy import` and t-strings). Run it with `uv run --python 3.15`.
+
+## Contributing
+
+Found a typo, a broken example or a better exercise? Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 

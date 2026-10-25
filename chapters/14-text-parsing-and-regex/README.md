@@ -14,4 +14,13 @@ From this folder:
 uv run parse_line.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Write a pattern that finds every amount in a longer sentence.
+2. Add support for dates written like `3 Oct 2026`.
+3. Name the groups in your own pattern and read them by name.
+
 Tested with Python 3.15.1 and uv 0.13.5.

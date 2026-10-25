@@ -13,3 +13,9 @@ uv run pytest -q
 ```
 
 Tested with Python 3.15.1 and uv 0.13.5.
+
+## Practice
+
+1. Add a `ledger export` command that writes JSON.
+2. Add a new endpoint `GET /transactions`.
+3. Add a test for the report text.

@@ -19,4 +19,13 @@ uv run queries.py
 uv run migrate.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Write a query for the largest expense per category.
+2. Add one more migration step.
+3. Query the average amount with `AVG`.
+
 Tested with Python 3.15.1 and uv 0.13.5.

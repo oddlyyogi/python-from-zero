@@ -14,4 +14,13 @@ From this folder:
 uv run importers.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Write a `TsvImporter` that reads tab-separated text.
+2. Make the base class abstract and try to create it.
+3. Write a function that accepts anything with a `parse` method.
+
 Tested with Python 3.15.1 and uv 0.13.5.

@@ -14,4 +14,13 @@ From this folder:
 uv run totals_by_category.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a new category and check that the totals still work.
+2. Use a set to find which categories appear in both of two lists of transactions.
+3. Replace `totals.get(...)` with `collections.defaultdict(float)`.
+
 Tested with Python 3.15.1 and uv 0.13.5.

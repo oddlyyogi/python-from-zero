@@ -24,4 +24,13 @@ uv run cpu.py
 uv run race.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Read ten files at once with eight threads.
+2. Fix a race on a dictionary with a lock.
+3. Compare processes and threads for another calculation.
+
 Tested with Python 3.15.1 and uv 0.13.5.

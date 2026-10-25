@@ -15,4 +15,13 @@ From this folder:
 uv run messy.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Run `ruff check` on your own file and fix every finding.
+2. Turn on one more rule group and see what appears.
+3. Run `mypy --strict` on a function you wrote.
+
 Tested with Python 3.15.1 and uv 0.13.5.

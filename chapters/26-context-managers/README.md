@@ -14,4 +14,13 @@ From this folder:
 uv run safe_save.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Write a context manager that times a block of code.
+2. Make `atomic_write` keep a backup of the old file.
+3. Use `suppress` to delete a file that may not exist.
+
 Tested with Python 3.15.1 and uv 0.13.5.

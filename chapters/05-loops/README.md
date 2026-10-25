@@ -19,4 +19,13 @@ uv run monthly_total.py
 uv run savings.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Change the budget to 100 and predict where the loop stops before you run it.
+2. Use `continue` to also skip amounts larger than 1000.
+3. Write a `while` loop that counts the months until savings reach 1000 at 125 a month.
+
 Tested with Python 3.15.1 and uv 0.13.5.

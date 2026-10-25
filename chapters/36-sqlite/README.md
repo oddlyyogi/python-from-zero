@@ -14,4 +14,13 @@ From this folder:
 uv run db.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a column `category` to the table.
+2. Write a function that deletes a transaction by id.
+3. Select only the rows from one month.
+
 Tested with Python 3.15.1 and uv 0.13.5.

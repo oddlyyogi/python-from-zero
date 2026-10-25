@@ -15,4 +15,18 @@ From this folder:
 uv run settings.py
 ```
 
+
+## Notes
+
+Create the demo secret yourself: `echo 'LEDGER_API_KEY=demo-key-123456' > .env`, then `uv run --env-file .env settings.py`. Never commit a real `.env` file.
+
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a `LEDGER_DB` setting and use it.
+2. Make a missing API key a clear error message.
+3. Generate a token with `secrets.token_urlsafe`.
+
 Tested with Python 3.15.1 and uv 0.13.5.

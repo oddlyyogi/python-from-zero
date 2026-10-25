@@ -14,4 +14,13 @@ From this folder:
 uv run by_month.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Group the transactions by weekday and print the busiest day.
+2. Compute how many days are left until the end of the month.
+3. Print each date in the form `Saturday 3 October 2026`.
+
 Tested with Python 3.15.1 and uv 0.13.5.

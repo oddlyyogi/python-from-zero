@@ -14,4 +14,13 @@ From this folder:
 uv run backup.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a new field `category` to the export and the load.
+2. Bump the version to 2 and make `load` reject version 1 files politely.
+3. Break `ledger.json` on purpose and handle the error.
+
 Tested with Python 3.15.1 and uv 0.13.5.

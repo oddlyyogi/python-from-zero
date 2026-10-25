@@ -14,4 +14,13 @@ From this folder:
 uv run ledger_store.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Save your own list of transactions and load it back.
+2. Make `load` return an empty list for an empty file.
+3. Use `Path.glob` to list every `.txt` file in a folder.
+
 Tested with Python 3.15.1 and uv 0.13.5.

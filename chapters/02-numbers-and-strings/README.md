@@ -14,4 +14,13 @@ From this folder:
 uv run clean_line.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Run the cleaner on `"  NETFLIX   $15.99 "` and check the result.
+2. Make the cleaner also turn the name to `Title Case` only when it is all upper case.
+3. Print the amount with the `$` sign and thousands separators.
+
 Tested with Python 3.15.1 and uv 0.13.5.

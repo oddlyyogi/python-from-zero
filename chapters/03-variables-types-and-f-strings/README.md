@@ -14,4 +14,13 @@ From this folder:
 uv run receipt.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a third item to the receipt and make the columns still line up.
+2. Change `WIDTH` to 40 and see which parts follow it.
+3. Print the tip rate as a percentage with an f-string format.
+
 Tested with Python 3.15.1 and uv 0.13.5.

@@ -14,4 +14,13 @@ From this folder:
 uv run commands.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a `rename OLD NEW` command to the parser.
+2. Add a command that accepts an optional category.
+3. Add a guard to reject negative indexes in `remove`.
+
 Tested with Python 3.15.1 and uv 0.13.5.

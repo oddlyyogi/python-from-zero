@@ -14,4 +14,13 @@ From this folder:
 uv run charts.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Draw a pie chart of the categories.
+2. Add value labels to the balance line.
+3. Save the dashboard as a PDF.
+
 Tested with Python 3.15.1 and uv 0.13.5.

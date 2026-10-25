@@ -14,4 +14,18 @@ From this folder:
 uv run slow_report.py
 ```
 
+
+## Notes
+
+The sampling profiler may need administrator rights on macOS. The tracing profiler works everywhere: `uv run python -m profiling.tracing -s tottime slow_report.py`.
+
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Profile one of your own scripts.
+2. Find a second slow spot and measure the fix.
+3. Use `timeit` to compare two ways of joining strings.
+
 Tested with Python 3.15.1 and uv 0.13.5.

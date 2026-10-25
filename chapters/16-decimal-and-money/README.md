@@ -14,4 +14,13 @@ From this folder:
 uv run money_decimal.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a `refund` helper that returns a `Decimal` rounded half up.
+2. Split 100.00 between 7 people without losing a cent.
+3. Find a calculation where `float` and `Decimal` disagree.
+
 Tested with Python 3.15.1 and uv 0.13.5.

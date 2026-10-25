@@ -14,4 +14,13 @@ From this folder:
 uv run stream.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Write a generator that yields only the expenses from a list of lines.
+2. Rewrite one of your loops as a list comprehension.
+3. Compare `sys.getsizeof` for a list and a generator over a million numbers.
+
 Tested with Python 3.15.1 and uv 0.13.5.

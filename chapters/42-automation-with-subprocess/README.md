@@ -14,4 +14,18 @@ From this folder:
 uv run backup.py
 ```
 
+
+## Notes
+
+Create the sample folder first (a `data/` folder is included here). The last lines run a command with a timeout, which ends with `TimeoutExpired` on purpose.
+
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Keep only the five newest backups.
+2. Run `ls -l` from Python and print the sizes.
+3. Add a timeout to every command you run.
+
 Tested with Python 3.15.1 and uv 0.13.5.

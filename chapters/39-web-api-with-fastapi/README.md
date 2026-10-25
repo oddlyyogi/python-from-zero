@@ -14,4 +14,18 @@ From this folder:
 uv run app.py
 ```
 
+
+## Notes
+
+`uv run app.py` starts the server on port 8000. Call it from a second terminal with `curl`, for example `curl -s localhost:8000/transactions`.
+
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a `DELETE /transactions/{id}` route.
+2. Return a 422 for a negative id.
+3. Open `/docs` in a browser and try a request there.
+
 Tested with Python 3.15.1 and uv 0.13.5.

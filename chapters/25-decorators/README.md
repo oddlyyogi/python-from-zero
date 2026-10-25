@@ -14,4 +14,13 @@ From this folder:
 uv run decorators.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Write a `@logged` decorator that prints the function name.
+2. Use `functools.cache` on a function of your own and time it.
+3. Change `retry` so it waits between attempts.
+
 Tested with Python 3.15.1 and uv 0.13.5.

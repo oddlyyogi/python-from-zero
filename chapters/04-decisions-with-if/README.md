@@ -14,4 +14,13 @@ From this folder:
 uv run categorize.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a `health` category for the words `pharmacy` and `doctor`.
+2. Reorder the questions so that large purchases are checked first. What changes?
+3. Add a check that prints `refund` when the amount is negative.
+
 Tested with Python 3.15.1 and uv 0.13.5.

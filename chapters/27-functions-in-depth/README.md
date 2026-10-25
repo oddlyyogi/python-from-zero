@@ -14,4 +14,13 @@ From this folder:
 uv run rules.py
 ```
 
+
+## Practice
+
+Try these on your own copy of the files:
+
+1. Add a rule for `salary` to the rule engine.
+2. Write a function that makes a rule from a word and a category.
+3. Use `functools.partial` to preset an argument.
+
 Tested with Python 3.15.1 and uv 0.13.5.
