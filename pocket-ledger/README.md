@@ -31,7 +31,7 @@ Run the tests and the checks:
 
 ```bash
 uv run pytest -q
-uvx ruff check && uvx ruff@0.17.2 format --check
+uvx ruff check && uvx ruff format --check
 uv run --with mypy==2.4.0 mypy --strict src
 ```
 
